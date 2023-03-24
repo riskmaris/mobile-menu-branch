@@ -118,7 +118,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/riskmaris/hello-microverse.git
+  git clone https://github.com/riskmaris/Setup-and-Mobile-First.git
 ```
 
 ### Install
