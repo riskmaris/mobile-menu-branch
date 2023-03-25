@@ -26,7 +26,7 @@ ul {
 nav a {
   color: #a3acff;
   text-decoration: none;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
 ul li a {
