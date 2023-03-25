@@ -5,11 +5,11 @@
 }
 
 nav {
-  color: #6070ff;
+  color: #A3ACFF;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .connect {
@@ -34,18 +34,25 @@ ul li a {
 
 .parent {
   width: 80%;
+  height: 50px;
   margin: auto;
 }
 
 .name {
   line-break: 10px;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
   color: #172b4d;
+  position: relative;
+  padding-top: 100px;
 }
 
-.article {
-  padding: 30px 0;
+p {
+  padding: 20px 0;
   color: #52607a;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  padding-top: 40px;
 }
 
 .ang-logo {
@@ -57,8 +64,14 @@ ul li a {
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
 
-  /* background-size: cover; */
+
   background-position: right top;
 
-  /* background-attachment: fixed; */
+}
+
+nav a {
+  color: #A3ACFF;
+  text-decoration: none;
+  font-family: arial;
+
 }
