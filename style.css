@@ -5,7 +5,7 @@
 }
 
 nav {
-  color: #A3ACFF;
+  color: hsl(234, 100%, 82%);
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
@@ -22,6 +22,12 @@ ul {
   color: #505f79;
   list-style-type: none;
   align-items: center;
+}
+
+nav a {
+  color: #a3acff;
+  text-decoration: none;
+  font-family: arial;
 }
 
 ul li a {
@@ -64,14 +70,5 @@ p {
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
 
-
   background-position: right top;
-
-}
-
-nav a {
-  color: #A3ACFF;
-  text-decoration: none;
-  font-family: arial;
-
 }
