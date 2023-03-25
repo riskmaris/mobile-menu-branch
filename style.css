@@ -9,7 +9,6 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  font-size: 40px;
 }
 
 .connect {
@@ -69,6 +68,5 @@ p {
   background-image: url("./images/white.png");
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-
   background-position: right top;
 }
