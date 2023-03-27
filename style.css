@@ -9,6 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+  font-size: 30px;
 }
 
 .connect {
@@ -61,7 +62,7 @@ p {
 }
 
 .ang-logo {
-  width: 30px;
+  width: 15px;
 }
 
 .bg-img {
