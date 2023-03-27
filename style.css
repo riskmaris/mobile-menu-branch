@@ -1,7 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');  
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -27,7 +30,6 @@ ul {
 a {
   color: #a3acff;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
 }
 
 ul li a {
@@ -47,7 +49,6 @@ ul li a {
 .name {
   line-break: 10px;
   font-size: 50px;
-  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   position: relative;
   padding-top: 100px;
@@ -58,7 +59,6 @@ p {
   padding: 20px 0;
   color: #52607a;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
   padding-top: 40px;
 }
 

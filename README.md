@@ -65,12 +65,19 @@ After you're finished please remove all the comments and instructions!
 2. Css
 3. Linters
 
+## Tech Stack <a name="tech stack"></a>
 
 <details>
+  <summary>Client</summary>
   <ul>
     <li><a href="https://html.org/">Html</a></li>
     <li><a href="https://css.org/">Css</a></li>
   </ul>
+</details>
+
+<details>
+  <summary>Database</summary>
+  No database technologies were used.
 </details>
 
 ### Key Features <a name="key-features"></a>
@@ -155,7 +162,7 @@ Open index.html using live server extension
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just give it a star.
+If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
