@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-nav {
+header {
   color: #a3acff;
   display: flex;
   justify-content: space-between;
@@ -24,10 +24,10 @@ ul {
   align-items: center;
 }
 
-nav a {
+a {
   color: #a3acff;
   text-decoration: none;
-  font-family: arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul li a {
@@ -47,17 +47,18 @@ ul li a {
 .name {
   line-break: 10px;
   font-size: 50px;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
   position: relative;
   padding-top: 100px;
+  margin-top: 70px;
 }
 
 p {
   padding: 20px 0;
   color: #52607a;
   font-size: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 40px;
 }
 
