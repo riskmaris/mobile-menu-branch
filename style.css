@@ -20,11 +20,12 @@ header {
   padding: 10px 0;
 }
 
-ul {
+.icon-logos {
   display: flex;
   color: #505f79;
   list-style-type: none;
   align-items: center;
+  gap: 10px;
 }
 
 a {
@@ -71,4 +72,146 @@ p {
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+.section-1 {
+  margin-top: 40px;
+  background: #f7f7f9;
+  padding: 1rem;
+  border: 2px solid #e1e3e8;
+  height: auto;
+  width: 100%;
+}
+.first-card {
+  margin-top: 80px;
+  background: #ffffff;
+  padding: 1rem;
+  border: 2px solid #e1e3e8;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #172b4d;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  color: #abd4c0;
+}
+
+h3 {
+  color:  #7d899c;
+}
+
+.languages {
+  display: flex;
+  gap: 20px ;
+  list-style-type: none;
+}
+
+.languages li {
+  background-color: #ebebff;
+  border-radius: 15px;
+  padding: 5px 10px;
+} 
+
+.see-project {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #cfd4ff;
+}
+
+.connect {
+  color: #a1adfe;
+}
+
+.resume {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #cfd4ff;
+  color: #9cbef9;
+}
+
+.me{
+  color: #182b4e;
+  position: relative; 
+  top: 30px; 
+}
+
+.lang-list{
+list-style-type: none;
+}
+
+.lang {
+  display: flex;
+  color: #3f3f3f solid;
+  font-size: 25px;
+  gap: 60%;
+}
+
+.ecllipse-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; 
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.ecllipse-2 {
+  display: flex;
+  gap: 40px;
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.ecllipse-3 {
+  display: flex;
+  gap: 40px;
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.frame {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  width: 150%;
+  align-items: center;
+}
+
+.skills {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr;
+  width: 150%; 
+  margin-top: -30px;
+}
+
+.lang-btn {
+  background-color: white;
+  border: none;
+  font-size: 10px;
+  margin-bottom: 10px;
+
+
+}
+hr {
+  border: 1.5px solid #e4e6ff;
 }
