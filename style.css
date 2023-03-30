@@ -100,7 +100,6 @@ h1 {
   justify-content: space-between;
   width: 300px;
   color: #abd4c0;
-  width: 100%;
 }
 
 .card-img{
@@ -242,10 +241,6 @@ h4 {
   line-height: 24px;
 }
 
-.frame {
-  font-size: 25px;
-  color: #3f3f3f;
-}
 
 .lang-btn {
   background-color: white;
