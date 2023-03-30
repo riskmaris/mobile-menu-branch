@@ -102,7 +102,7 @@ h1 {
   color: #abd4c0;
 }
 
-.card-img{
+.card-img {
   width: 100%;
 }
 
@@ -149,7 +149,7 @@ h4 {
   color: #6070ff;
 }
 
-.connect:hover{
+.connect:hover {
   background-color: #6070ff;
   color: white;
 }
@@ -226,6 +226,7 @@ h4 {
   align-items: baseline;
   justify-content: space-between;
 }
+
 .height-1 ul {
   list-style: none;
 }
@@ -240,7 +241,6 @@ h4 {
   font-size: 20px;
   line-height: 24px;
 }
-
 
 .lang-btn {
   background-color: white;
