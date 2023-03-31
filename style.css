@@ -98,7 +98,6 @@ h1 {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  width: 300px;
   color: #abd4c0;
 }
 
@@ -118,7 +117,7 @@ h4 {
 
 .languages {
   display: flex;
-  gap: 20px;
+  gap: 7px;
   list-style-type: none;
 }
 
