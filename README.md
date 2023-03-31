@@ -55,10 +55,10 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 
-# 📖 [SETUP-AND-MOBILE-FIRST] <a name=SETUP-AND-MOBILE-FIRST></a>
+# 📖 [About-Myself] <a name=About-Myself></a>
 
 
-**[Setup and mobile first]** is a simple project built with html and css showing responsiveness for mobile version.
+**[About-Myself]** is a simple project built with html and css showing responsiveness for mobile version. It showa my accomplishments and skills as a developer.
 
 ## 🛠 Built With
 1. Html
@@ -88,9 +88,8 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 [Live Demo](https://riskmaris.github.io/Setup-and-Mobile-First/)
+## 🚀 [Live Demo] Coming soon...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -115,7 +114,6 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 
 ```sh
@@ -154,8 +152,7 @@ Open index.html using live server extension
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add header
-- Add footer
+- Develop the Desktop Version
 - Add styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,7 +165,7 @@ If you like this project please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse with all the resources they provided.
+I would like to thank Microverse and my coding partners with all the resources they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
