@@ -37,9 +37,10 @@ ul li a {
 }
 
 .parent {
-  padding: 5px;
-  height: 50px;
-  margin: auto;
+  padding: 2px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .name {
@@ -71,6 +72,8 @@ p {
 
 .section-1 {
   margin-top: 40px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
   padding: 2em;
   background: #f7f7f9;
   border: 2px solid #e1e3e8;
@@ -218,6 +221,7 @@ h4 {
 
 .height-1 {
   height: 650px;
+  margin-bottom: 100px !important;
 }
 
 .height-1 .lang-div {
@@ -235,6 +239,7 @@ h4 {
   line-height: 24px;
   font-weight: 500;
 }
+
 
 .frame-title {
   font-size: 20px;
@@ -256,4 +261,58 @@ h4 {
 
 hr {
   border: 1.5px solid #e4e6ff;
+}
+
+.contact {
+  color: #fff;
+  font-size: 50px;
+  /* margin-top: 50px; */
+}
+
+.para {
+  font-size: 20px;
+  color: #fff;
+}
+
+.about-contact {
+  text-align: center;
+  margin-top: 60px; 
+  background-image: url("./images/header-shapes\ mobile.png");
+  background-image: url("./images/Contact\ me\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.labels {
+width: 200px;
+margin: 0px auto;
+padding-right: 20px;
+}
+
+.msg {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.in-touch {
+  padding: 7px 13px;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #cfd4ff;
+  color: #628cf5;
+}
+
+input {
+  width: 150%;
+  height: 50px;
+}
+
+textarea {
+  width: 270px;
+  height: 150px;
+  resize: none;
+  align-items: center;
 }
