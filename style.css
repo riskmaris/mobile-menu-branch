@@ -266,7 +266,6 @@ hr {
 .contact {
   color: #fff;
   font-size: 50px;
-  /* margin-top: 50px; */
 }
 
 .para {
@@ -283,11 +282,11 @@ hr {
   background-image: url(images/contact\ form\ shapes-mobile.svg);
   background-position: right top;
   background-repeat: no-repeat;
-  background-color: hsl(242 88% 56% / 0.8);
+  background-color: #6071ff;
   border-top-left-radius: 73px;
   padding-top: 60px;
 }
-.title-container{
+.title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,14 +294,14 @@ hr {
   padding: 10px 15px;
 }
 
-.title-container h2{
+.title-container h2 {
   align-self: center;
   color: #fff;
   font-weight: 700;
   font-size: 2rem;
   margin-top: 50px;
 }
-.title-container p{
+.title-container p {
   align-self: center;
   color: #fff;
   font-size: 1.4rem;
@@ -310,13 +309,13 @@ hr {
   
 }
 
-.form-container{
+.form-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.labels{
+.labels {
   margin-top: 20px;
   width: 86%;
   display: flex;
