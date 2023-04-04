@@ -277,10 +277,18 @@ hr {
 .about-contact {
   text-align: center;
   margin-top: 60px; 
+  
+  
+}
+.about-contact{
   background-image: url("./images/header-shapes\ mobile.png");
-  background-image: url("./images/Contact\ me\ \(1\).png");
+  z-index: 100;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.about-contact{
+  background-image: url("./images/Contact\ me\ \(1\).png");
+z-index: -1;
 }
 
 .labels {
@@ -316,3 +324,4 @@ textarea {
   resize: none;
   align-items: center;
 }
+
