@@ -275,10 +275,13 @@ hr {
 }
 
 .about-contact {
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
-  margin-top: 60px; 
-  
-  
+}
+
+.labels div {
+  margin-bottom: 20px;
 }
 .about-contact{
   background-image: url("./images/header-shapes\ mobile.png");
@@ -291,10 +294,14 @@ hr {
 z-index: -1;
 }
 
-.labels {
-width: 200px;
-margin: 0px auto;
-padding-right: 20px;
+.labels input,
+.labels textarea {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
 }
 
 .msg {
