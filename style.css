@@ -116,14 +116,12 @@ h4 {
 }
 
 .languages {
-  /* display: flex; */
-  /* float:left; */
+  display: flex;
   gap: 7px;
   list-style-type: none;
 }
 
 .languages li {
-  float:left;
   background-color: #ebebff;
   border-radius: 8px;
   padding: 5px 10px;
