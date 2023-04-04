@@ -274,54 +274,99 @@ hr {
   color: #fff;
 }
 
-.about-contact {
-  text-align: center;
-  margin-top: 60px; 
-  
-  
-}
 .about-contact{
-  background-image: url("./images/header-shapes\ mobile.png");
-  z-index: 100;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.about-contact{
-  background-image: url("./images/Contact\ me\ \(1\).png");
-z-index: -1;
-}
-
-.labels {
-width: 200px;
-margin: 0px auto;
-padding-right: 20px;
-}
-
-.msg {
-  margin-top: 5px;
-  width: 100%;
-}
-
-.in-touch {
-  padding: 7px 13px;
-  font-size: 17px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  border: 2px solid #cfd4ff;
-  color: #628cf5;
-}
-
-input {
-  width: 150%;
-  height: 50px;
-}
-
-textarea {
-  width: 270px;
-  height: 150px;
-  resize: none;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-image: url(images/contact\ form\ shapes-mobile.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: hsl(242 88% 56% / 0.8);
+  border-top-left-radius: 73px;
+  padding-top: 60px;
 }
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.title-container h2{
+  align-self: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+.title-container p{
+  align-self: center;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 15px;
+  
+}
+
+.form-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.labels{
+  margin-top: 20px;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 50px;
+}
+.labels input{
+  margin-bottom: 12px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.labels textarea{
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.labels .in-touch{
+  padding: 15px 20px;
+  align-self: flex-start;
+  border-radius: 7px;
+  border: none;
+}
+::placeholder{
+  padding: 15px;
+  font-size: 15px;
+}
+.about-contact hr{
+  width: 40%;
+  height: 8px;
+  background-color: black;
+  align-self: center;
+  margin-bottom: 6px;
+  border-radius: 2px;
+  outline: none;
+}
+
+
+
+
+
+
+
+
 
