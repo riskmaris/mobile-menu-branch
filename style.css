@@ -10,13 +10,15 @@
 header {
   width: 386px;
 }
-.navbor{
+
+.navbor {
   color: #a3acff;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
   font-size: 30px;
   margin-top: 0;
+
   /* border: 2px solid red; */
   padding-left: 10px;
   padding-right: 10px;
@@ -43,19 +45,19 @@ ul li a {
   margin-top: 15px;
 }
 
-.bg-img{
+.bg-img {
   background-image: url("./images/white.png");
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-position: right top;
 }
-.hero-container{
+
+.hero-container {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
 }
-
 
 .name {
   line-break: 10px;
@@ -85,6 +87,7 @@ p {
   border: 2px solid #e1e3e8;
   height: 100%;
   width: 100%;
+
   /* border: 2px solid black; */
 }
 
@@ -173,7 +176,8 @@ h4 {
   color: #628cf5;
   align-self: start;
 }
-.about-section{
+
+.about-section {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
@@ -181,6 +185,7 @@ h4 {
   justify-content: flex-start;
   margin: 20px auto;
 }
+
 .me {
   color: #182b4e;
   position: relative;
@@ -235,8 +240,8 @@ h4 {
 }
 
 .height-1 {
- width: 100%;
- padding: 20px;
+  width: 100%;
+  padding: 20px;
 }
 
 .height-1 .lang-div {
@@ -254,7 +259,6 @@ h4 {
   line-height: 24px;
   font-weight: 500;
 }
-
 
 .frame-title {
   font-size: 20px;
@@ -288,7 +292,7 @@ hr {
   color: #fff;
 }
 
-.about-contact{
+.about-contact {
   margin-top: 160px;
   display: flex;
   flex-direction: column;
@@ -301,7 +305,8 @@ hr {
   border-top-left-radius: 73px;
   padding-top: 60px;
 }
-.title-container{
+
+.title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,28 +314,29 @@ hr {
   padding: 10px 15px;
 }
 
-.title-container h2{
+.title-container h2 {
   align-self: center;
   color: #fff;
   font-weight: 700;
   font-size: 2rem;
   margin-top: 50px;
 }
-.title-container p{
+
+.title-container p {
   align-self: center;
   color: #fff;
   font-size: 1.4rem;
   padding: 15px;
-
 }
 
-.form-container{
+.form-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.labels{
+
+.labels {
   margin-top: 20px;
   width: 86%;
   display: flex;
@@ -340,7 +346,8 @@ hr {
   align-self: center;
   margin-bottom: 50px;
 }
-.labels input{
+
+.labels input {
   margin-bottom: 12px;
   width: 100%;
   height: 50px;
@@ -348,7 +355,8 @@ hr {
   outline: none;
   border: none;
 }
-.labels textarea{
+
+.labels textarea {
   width: 100%;
   height: 150px;
   border-radius: 5px;
@@ -356,17 +364,19 @@ hr {
   outline: none;
 }
 
-.labels .in-touch{
+.labels .in-touch {
   padding: 15px 20px;
   align-self: flex-start;
   border-radius: 7px;
   border: none;
 }
-::placeholder{
+
+::placeholder {
   padding: 30px;
   font-size: 15px;
 }
-.about-contact hr{
+
+.about-contact hr {
   width: 40%;
   height: 8px;
   background-color: black;
@@ -375,4 +385,3 @@ hr {
   border-radius: 2px;
   outline: none;
 }
-
