@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 
-.navbor {
+.navbar {
   color: #a3acff;
   display: flex;
   justify-content: space-between;
