@@ -55,10 +55,10 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 
-# 📖 [About-Myself] <a name=About-Myself></a>
+# 📖 [About-us] <a name=About-us></a>
 
 
-**[About-Myself]** is a simple project built with html and css showing responsiveness for mobile version. It showa my accomplishments and skills as a developer.
+**[About-us]** is a simple project built with html and css showing responsiveness for mobile version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
@@ -85,6 +85,7 @@ After you're finished please remove all the comments and instructions!
 - Added index.html file
 - Added style.css file
 - Added icons from bootstrap and images
+- Added a contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,9 +144,11 @@ Open index.html using live server extension
 
 
 👤 Maris Kapuka
+   
 
 - GitHub: [riskmaris](https://github.com/riskmaris)
-
+- Github: [rahimialijan](https://github.com/rahimialijan)
+- Github: [hagan23](https://github.com/hagan23)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,7 +168,7 @@ If you like this project please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners with all the resources they provided.
+I would like to thank Microverse and my collaborative partners with all the resources they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
