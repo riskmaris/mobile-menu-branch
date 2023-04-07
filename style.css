@@ -379,7 +379,8 @@ hr {
 ::placeholder {
   padding: 30px;
   font-size: 15px;
-}
+} 
+
 
 .about-contact hr {
   width: 40%;
@@ -441,7 +442,7 @@ hr {
 
   .navbar-list li a {
     text-decoration: none;
-  }
+  } 
 
   /* start second section */
   .bg-img {
@@ -455,6 +456,7 @@ hr {
     margin-bottom: 0;
     background-color: #fff;
     border-bottom-left-radius: 80px;
+    transform: rotate2d(1, 1, 1, 30deg);
   }
 
   .hero-container {
@@ -472,6 +474,11 @@ hr {
 
   .connect {
     display: inline;
+  }
+
+  .beg-btn:hover {
+    background-color: #528bfe;
+    color: #c8643f;
   }
 
   /* 3rd section */
@@ -591,6 +598,10 @@ hr {
   .form-container {
     margin-bottom: 20px;
   }
+
+    .languages li:hover {
+      background-color: #ff7b29;
+    }
 
   .about-contact hr {
     display: none;
