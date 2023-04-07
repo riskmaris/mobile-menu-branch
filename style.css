@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-  color: #a3acff;
+  color: #6070ff;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
@@ -412,7 +412,7 @@ hr {
     align-items: center;
   }
 
-  .navbor {
+  .navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
