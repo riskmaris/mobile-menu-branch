@@ -379,8 +379,7 @@ hr {
 ::placeholder {
   padding: 30px;
   font-size: 15px;
-} 
-
+}
 
 .about-contact hr {
   width: 40%;
@@ -439,13 +438,13 @@ hr {
     list-style: none;
     margin-left: 20px;
     font-size: 15px;
-    color: #172b4d
+    color: #172b4d;
   }
-  
+
   .navbar-list li a:hover {
     text-decoration: none;
     background-color: #ccdbee;
-  } 
+  }
 
   /* start second section */
   .bg-img {
@@ -467,7 +466,7 @@ hr {
     width: 70%;
   }
 
-  .hero-container .paragraph{
+  .hero-container .paragraph {
     position: relative;
     padding-top: 3px;
     animation: para 3s linear;
@@ -477,23 +476,28 @@ hr {
     line-height: 1.2;
     animation: title 3s linear;
   }
+
   @keyframes title {
     0% { top: -1000px; }
     100% { top: 0; }
   }
+
   @keyframes para {
     0% { right: -1000px; }
     100% { right: 0; }
   }
-  .connect{
+
+  .connect {
     display: inline;
     position: relative;
     animation: connect 3s linear;
   }
-  .icon-logos{
+
+  .icon-logos {
     position: relative;
     animation: connect 3s linear;
   }
+
   @keyframes connect {
     0% { bottom: -1000px; }
     100% { bottom: 0; }
@@ -546,7 +550,8 @@ hr {
     height: 100%;
     transition: 2s linear;
   }
-  .img-container .card-img:hover{
+
+  .img-container .card-img:hover {
     transform: rotate(360deg);
   }
 
@@ -626,9 +631,9 @@ hr {
     margin-bottom: 20px;
   }
 
-    .languages li:hover {
-      background-color: #ff7b29;
-    }
+  .languages li:hover {
+    background-color: #ff7b29;
+  }
 
   .about-contact hr {
     display: none;
