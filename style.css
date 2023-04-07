@@ -431,17 +431,20 @@ hr {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    transform: rotate3d(65deg);
+    position: relative;
   }
 
   .navbar-list li {
     list-style: none;
     margin-left: 20px;
     font-size: 15px;
-    color: #172b4d;
+    color: #172b4d
   }
-
-  .navbar-list li a {
+  
+  .navbar-list li a:hover {
     text-decoration: none;
+    background-color: #ccdbee;
   } 
 
   /* start second section */
