@@ -150,11 +150,14 @@ h4 {
   background-color: #fff;
   border-radius: 10px;
   border: 2px solid #cfd4ff;
+  transition: transform 250ms;
+  
 }
 
 .beg-btn:hover {
   background-color: #6070ff;
   color: white;
+  transform: translateY(-10px);
 }
 
 .connect {
