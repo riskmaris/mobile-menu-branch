@@ -89,9 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 [Live Demo] Coming soon...
-
-
+## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App./)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
