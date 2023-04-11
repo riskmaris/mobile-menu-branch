@@ -89,8 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App./)
-<!-- GETTING STARTED -->
+## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -143,8 +142,11 @@ Open index.html using live server extension
 
 👤 Maris Kapuka
    
-
 - GitHub: [riskmaris](https://github.com/riskmaris)
+
+👤 Menendez NELSON
+   
+- GitHub: [menendezon](https://github.com/menendezon)
 
 
 
@@ -157,6 +159,20 @@ Open index.html using live server extension
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+I'm open to any suggestions about this project.
+
+Feel free to check the [issues page](../../issues/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a star.
@@ -168,8 +184,6 @@ If you like this project please give it a star.
 I would like to thank Microverse with all the resources they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
