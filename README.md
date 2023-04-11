@@ -58,12 +58,13 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Desktop Version] <a name=Desktop-Version></a>
 
 
-**[Desktop-Version]** is a simple project built with html and css showing responsiveness for desktop version. It shows my accomplishments and skills as a developer.
+**[Desktop-Version]** is a simple project built with html and css showing responsiveness for desktop version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
 2. Css
 3. Linters
+4. Node.js
 
 ## Tech Stack <a name="tech stack"></a>
 
@@ -86,6 +87,7 @@ After you're finished please remove all the comments and instructions!
 - Added style.css file
 - Added images from figma
 - Added a desktop version
+- Accessibility feature
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +160,6 @@ Open index.html using live server extension
 - Add styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
