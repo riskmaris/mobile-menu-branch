@@ -91,7 +91,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App./)
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

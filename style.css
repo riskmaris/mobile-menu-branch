@@ -430,6 +430,8 @@ hr {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    transform: rotate3d(65deg);
+    position: relative;
   }
 
   .navbar-list li {
@@ -439,8 +441,9 @@ hr {
     color: #172b4d;
   }
 
-  .navbar-list li a {
+  .navbar-list li a:hover {
     text-decoration: none;
+    background-color: #ccdbee;
   }
 
   /* start second section */
@@ -455,6 +458,7 @@ hr {
     margin-bottom: 0;
     background-color: #fff;
     border-bottom-left-radius: 80px;
+    transform: rotate2d(1, 1, 1, 30deg);
   }
 
   .hero-container {
@@ -462,16 +466,46 @@ hr {
     width: 70%;
   }
 
-  .hero-container p {
+  .hero-container .paragraph {
+    position: relative;
     padding-top: 3px;
+    animation: para 3s linear;
   }
 
   .hero-container .name {
     line-height: 1.2;
+    animation: title 3s linear;
+  }
+
+  @keyframes title {
+    0% { top: -1000px; }
+    100% { top: 0; }
+  }
+
+  @keyframes para {
+    0% { right: -1000px; }
+    100% { right: 0; }
   }
 
   .connect {
     display: inline;
+    position: relative;
+    animation: connect 3s linear;
+  }
+
+  .icon-logos {
+    position: relative;
+    animation: connect 3s linear;
+  }
+
+  @keyframes connect {
+    0% { bottom: -1000px; }
+    100% { bottom: 0; }
+  }
+
+  .beg-btn:hover {
+    background-color: #528bfe;
+    color: #c8643f;
   }
 
   /* 3rd section */
@@ -514,6 +548,11 @@ hr {
 
   .img-container .card-img {
     height: 100%;
+    transition: 2s linear;
+  }
+
+  .img-container .card-img:hover {
+    transform: rotate(360deg);
   }
 
   .first-card:nth-child(1) {
@@ -590,6 +629,10 @@ hr {
 
   .form-container {
     margin-bottom: 20px;
+  }
+
+  .languages li:hover {
+    background-color: #ff7b29;
   }
 
   .about-contact hr {
