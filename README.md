@@ -58,12 +58,13 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Desktop Version] <a name=Desktop-Version></a>
 
 
-**[Desktop-Version]** is a simple project built with html and css showing responsiveness for desktop version. It shows my accomplishments and skills as a developer.
+**[Desktop-Version]** is a simple project built with html and css showing responsiveness for desktop version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
 2. Css
 3. Linters
+4. Node.js
 
 ## Tech Stack <a name="tech stack"></a>
 
@@ -86,12 +87,17 @@ After you're finished please remove all the comments and instructions!
 - Added style.css file
 - Added images from figma
 - Added a desktop version
+- Accessibility feature
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
+## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App/)
+=======
 ## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App./)
 
 <!-- GETTING STARTED -->
+>>>>>>> 44d59a42d2b86cc01d2a0e6e9a7b5d6204e307bc
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -144,8 +150,11 @@ Open index.html using live server extension
 
 👤 Maris Kapuka
    
-
 - GitHub: [riskmaris](https://github.com/riskmaris)
+
+👤 Menendez NELSON
+   
+- GitHub: [menendezon](https://github.com/menendezon)
 
 
 
@@ -158,6 +167,19 @@ Open index.html using live server extension
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+I'm open to any suggestions about this project.
+
+Feel free to check the [issues page](../../issues/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a star.
@@ -169,8 +191,6 @@ If you like this project please give it a star.
 I would like to thank Microverse with all the resources they provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
