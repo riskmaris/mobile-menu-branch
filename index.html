@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/3b74535463.js"
-crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b74535463.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -19,17 +18,30 @@ crossorigin="anonymous"></script>
     <header class="body-section">
       <main class="parent">
         <header class="navbar">
-          <nav>
-             <a href="#">Risk</a>
+            <nav>
+              <a href="#">Risk</a>
+            </nav>
+            <div class="x-menu-icon">
+
+              <nav id="x-menu">
+                <i class="bi bi-list" id="menu-bar"></i>
+              </nav>
+              <!---popup navbar-->
+
+              <ul class="popup-list">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+                <i class="bi bi-x-lg" id="x-icon"></i>
+
+              <ul class="navbar-list">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
           </nav>
-          <nav>
-            <i class="bi bi-list"></i>
-          </nav>
-          <ul class="navbar-list">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
         </header>
         <section class="bg-img">
           <div class="hero-container">
@@ -296,5 +308,6 @@ crossorigin="anonymous"></script>
         </section>
       </main>
     </header>
+    <script src="js-app.js"></script>
   </body>
 </html>
