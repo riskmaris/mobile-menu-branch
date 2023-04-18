@@ -20,23 +20,36 @@ body {
   align-items: center;
 }
 
+#x-icon {
+  color: #fff;
+  position: absolute;
+  z-index: 180;
+  right: 1.3rem;
+}
+
 .navbar {
   color: #6070ff;
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
   font-size: 25px;
-  margin-top: 0;
+  margin-right: 10px;
   padding-left: 10px;
-  padding-right: 10px;
+  margin-top: 30px;
 }
 
-.icon-logos {
-  display: flex;
-  color: #505f79;
-  list-style-type: none;
-  align-items: center;
-  gap: 10px;
+.popup-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  bottom: 0;
+  width: 100vw;
+  height: 120vh;
+  padding: 35px 20px;
+  mix-blend-mode: multiply;
+  background-color: #6070ff;
+  backdrop-filter: blur(7px);
 }
 
 a {
@@ -46,6 +59,26 @@ a {
 
 ul li a {
   color: #505f79;
+}
+
+.popup-list li a {
+  list-style-type: none;
+  color: #fff;
+  padding: 10px 7px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.popup-list li {
+  margin: 50px 0 60px 0;
+}
+
+.icon-logos {
+  display: flex;
+  color: #505f79;
+  list-style-type: none;
+  align-items: center;
+  gap: 10px;
 }
 
 .icons {

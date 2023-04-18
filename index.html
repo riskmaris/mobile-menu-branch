@@ -20,11 +20,23 @@ crossorigin="anonymous"></script>
       <main class="parent">
         <header class="navbar">
           <nav>
-             <a href="#">Risk</a>
+            <a href="#">Risk</a>
           </nav>
-          <nav>
-            <i class="bi bi-list"></i>
-          </nav>
+          <div class="x-menu-icon">
+
+            <nav id="x-menu">
+              <i class="bi bi-list" id="menu-bar"></i>
+            </nav>
+            <!---popup navbar-->
+            
+            <i class="bi bi-x-lg" id="x-icon"></i>
+            <ul class="popup-list">
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
           <ul class="navbar-list">
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
@@ -296,5 +308,6 @@ crossorigin="anonymous"></script>
         </section>
       </main>
     </header>
+    <script src="js app.js"></script>
   </body>
 </html>
