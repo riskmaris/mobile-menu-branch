@@ -52,6 +52,16 @@ body {
   backdrop-filter: blur(7px);
 }
 
+a {
+  color: #a3acff;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #505f79;
+}
+
+
 .popup-list li a {
   list-style-type: none;
   color: #fff;
@@ -70,15 +80,6 @@ body {
   list-style-type: none;
   align-items: center;
   gap: 10px;
-}
-
-a {
-  color: #a3acff;
-  text-decoration: none;
-}
-
-ul li a {
-  color: #505f79;
 }
 
 .icons {
