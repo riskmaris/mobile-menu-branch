@@ -38,6 +38,14 @@ body {
   right: 1.3rem;
  }
 
+ a {
+  color: #a3acff;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #505f79;
+}
 
 .popup-list {
   position: absolute;
@@ -61,10 +69,9 @@ body {
   color: #fff;
   padding: 0px 5px;
   margin-top: 70px;
-  font-size: 35px;
-  font-weight: 800px;
+  font-size: 30px;
+  font-weight: 800;
 } 
-
 
 
 .icon-logos {
@@ -75,14 +82,6 @@ body {
   gap: 10px;
 }
 
-a {
-  color: #a3acff;
-  text-decoration: none;
-}
-
-ul li a {
-  color: #505f79;
-}
 
 .icons {
   margin-top: 15px;
