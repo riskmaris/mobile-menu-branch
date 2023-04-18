@@ -17,12 +17,6 @@ menuBar.addEventListener('click', () => {
     xIcon.style.display = 'none'
 });
 
-popupList.forEach((popup) =>{
-    popup.addEventListener('click', () => {
-        xIcon.style.display = 'none'
-        popupList.style.display = 'none'
-    })
-})
 
 
 
