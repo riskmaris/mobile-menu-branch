@@ -25,6 +25,8 @@ body {
   position: absolute;
   z-index: 180;
   right: 1.3rem;
+  font-weight: 800;
+  padding-right: 20px;
 }
 
 .navbar {
@@ -66,7 +68,7 @@ ul li a {
   color: #fff;
   padding: 10px 7px;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .popup-list li {
