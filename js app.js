@@ -19,9 +19,9 @@ xIcon.addEventListener('click', () => {
 });
 
 popupListItems.forEach((item) => {
-	item.addEventListener("click", function () {
-  popupList.style.display = 'none';
-  xIcon.style.display = 'none';
-  menuBar.style.display = 'block';
-	});
+  item.addEventListener('click', () => {
+    popupList.style.display = 'none';
+    xIcon.style.display = 'none';
+    menuBar.style.display = 'block';
+  });
 });
