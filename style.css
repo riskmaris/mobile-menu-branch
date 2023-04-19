@@ -387,6 +387,19 @@ hr {
   margin-bottom: 50px;
 }
 
+.labels span {
+  color: red;
+  font-size: 13px;
+}
+
+.labels span i {
+  color: #689f39;
+}
+
+#button-error {
+  color: red;
+}
+
 .labels input {
   margin-bottom: 12px;
   width: 100%;
