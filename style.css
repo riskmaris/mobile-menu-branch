@@ -54,29 +54,13 @@ body {
   backdrop-filter: blur(7px);
 }
 
- a {
+a {
   color: #a3acff;
   text-decoration: none;
 }
 
 ul li a {
   color: #505f79;
-}
-
-.popup-list {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  bottom: 0px;
-  width: 100vw;
-  height: 105%;
-  display: block;
-  padding: 35px 20px;
-  mix-blend-mode: multiply;
-  background-color: #6070ff;
-  backdrop-filter: blur(7px);
 }
 
 .popup-list li a {
