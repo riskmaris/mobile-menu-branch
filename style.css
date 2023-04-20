@@ -20,7 +20,16 @@ body {
   align-items: center;
 }
 
- .navbar { 
+#x-icon {
+  color: #fff;
+  position: absolute;
+  z-index: 180;
+  right: 1.3rem;
+  font-weight: 800;
+  padding-right: 20px;
+}
+
+.navbar {
   color: #6070ff;
   display: flex;
   justify-content: space-between;
@@ -30,13 +39,20 @@ body {
   margin-top: 30px;
 }
 
- #x-icon {
-  color: #fff;
-  display: block;
+.popup-list {
   position: absolute;
-  z-index: 180;
-  right: 1.3rem;
- }
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  bottom: 0;
+  width: 100vw;
+  height: 120vh;
+  padding: 35px 20px;
+  mix-blend-mode: multiply;
+  background-color: #6070ff;
+  backdrop-filter: blur(7px);
+}
 
  a {
   color: #a3acff;
@@ -64,15 +80,16 @@ ul li a {
 }
 
 .popup-list li a {
-  display: block;
   list-style-type: none;
   color: #fff;
-  padding: 0px 5px;
-  margin-top: 70px;
+  padding: 10px 7px;
   font-size: 30px;
-  font-weight: 800;
-} 
+  font-weight: 700;
+}
 
+.popup-list li {
+  margin: 50px 0 60px 0;
+}
 
 .icon-logos {
   display: flex;
@@ -81,7 +98,6 @@ ul li a {
   align-items: center;
   gap: 10px;
 }
-
 
 .icons {
   margin-top: 15px;

@@ -1,31 +1,5 @@
 
 
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -55,15 +29,16 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 
-# 📖 [Desktop Version] <a name=Desktop-Version></a>
+# 📖 [Mobile menu] <a name=Mobile menu></a>
 
 
-**[Desktop-Version]** is a simple project built with html and css showing responsiveness for desktop version. It shows my accomplishments and skills as a developer.
+**[Desktop-Version]** is a simple project built with html,  javascript and css showing responsiveness for desktop version. It shows my accomplishments and skills as a developer.
 
 ## 🛠 Built With
 1. Html
 2. Css
-3. Linters
+3. Javascript
+4. Linters
 
 ## Tech Stack <a name="tech stack"></a>
 
@@ -72,6 +47,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://html.org/">Html</a></li>
     <li><a href="https://css.org/">Css</a></li>
+    <li><a href="https://javascript.org/">Javascript</a></li>
   </ul>
 </details>
 
@@ -85,11 +61,11 @@ After you're finished please remove all the comments and instructions!
 - Added index.html file
 - Added style.css file
 - Added images from figma
-- Added a desktop version
+- Added a Javascript file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 [Live Demo](https://riskmaris.github.io/My-Portfolio-Web-App./)
+## 🚀 [Live Demo] Loading...
 
 <!-- GETTING STARTED -->
 
@@ -146,6 +122,8 @@ Open index.html using live server extension
    
 
 - GitHub: [riskmaris](https://github.com/riskmaris)
+ GitHub: [Zohra-Neda](https://github.com/Zohra-Neda)
+
 
 
 
@@ -155,6 +133,7 @@ Open index.html using live server extension
 
 - Develop reponsinve wed design on all screans
 - Add styling
+- Add javascript file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
