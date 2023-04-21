@@ -1,3 +1,4 @@
+
 const menuBar = document.querySelector('#menu-bar');
 const xIcon = document.querySelector('#x-icon');
 const popupList = document.querySelector('.popup-list');
@@ -63,14 +64,13 @@ const cards = [{
 }];
 
 let detailsForPopUpDiv = document.createElement("div");
-let popClose = document.querySelector("#x-close");
+let popClose = document.getElementById('close-icon');
 
 const popUpDiv = (element) => {
-
-    detailsForPopUpDiv.innerHTML = `
+  detailsForPopUpDiv.innerHTML = `
         <div class="pop-up-div">
             
-            <i class="bi bi-x-lg" id="close"></i>
+            <i class="bi bi-x-lg" id="close-icon" onclick='closePopup()'></i>
             
             <div class="pop-up-div-container">
             <div class="pop-up-div-container-details-heading">
@@ -90,38 +90,42 @@ const popUpDiv = (element) => {
                 <p>
                     ${element.paragraph}
                 </p>
-
-                <ul class="languages">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
+          <div class='btn-details'>
+              <ul class="languages">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                   <li>JavaScript</li>
+              </ul>
+              <div class='submit-btn'>
                 <button class="beg-btn"><a href="#"> ${element.button}</a>
                 <i class="bi bi-box-arrow-up-right"></i>
                 </button>
                 <button class="beg-btn"><a href="#"> ${element.button}</a>
                 <i class="bi bi-github"></i>
                 </button>
+              </div>
+         </div>
+                
             </div>
         </div>
   `
 
-    let section = document.querySelector(`.${element.class}`)
-    section.appendChild(detailsForPopUpDiv)
+  let section = document.querySelector(`.${element.class}`)
+  section.appendChild(detailsForPopUpDiv)
 
-        popClose.addEventListener("click", () => {
-            detailsForPopUpDiv.style.display = "none"
-        })
-    
+}
+function closePopup() {
+  detailsForPopUpDiv.style.display = 'none'
 }
 
 
+
 cards.forEach((element, index) => {
-let section = document.querySelector("#Portfolio")
-let div = document.createElement("div")
+  let section = document.querySelector("#Portfolio")
+  let div = document.createElement("div")
 
 
-div.innerHTML = `
+  div.innerHTML = `
    <div class= "first-card ${element.class}">
 
             <div class="img-container">
@@ -147,25 +151,18 @@ div.innerHTML = `
                   <li>CSS</li>
                   <li>JavaScript</li>
                 </ul>
-                <button class="beg-btn"><a href="#">
+                <button onclick='popupOpen()' class="beg-btn"><a href="#">
                   ${element.button}</a></button>
             </div>
-          </div>
-
-
-
-          
+          </div>          
 `
+  section.appendChild(div)
 
-
-section.appendChild(div)
-
-
-div.addEventListener("click", () => {
-  popUpDiv(element)
+  div.addEventListener("click", () => {
+    popUpDiv(element)
+  })
 })
-})
-            
-            
-    
-            
+
+function popupOpen() {
+  detailsForPopUpDiv.style.display = 'block'
+}
