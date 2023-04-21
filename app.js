@@ -26,19 +26,22 @@ popupListItems.forEach((item) => {
   });
 });
 
+// ---------CONTACT VALIDATION---------
+
 let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 let messageError = document.getElementById('message-error');
 let buttonError = document.getElementById('button-error');
 
-function validateName(){
+function validateName() {
   let name = document.getElementById('your-name').value;
+  name.style.border = '1px solid red';
 
-  if(name.length == 0){
+  if(name.length === 0) {
     nameError.innerHTML = 'name is required';
     return false;
   }
-  if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
+  if(!name.match(/^[a-za-z]*\s{1}[a-za-z]*$/)){
     nameError.innerHTML = 'write full name';
     return false;
   }
@@ -46,14 +49,14 @@ function validateName(){
   return true;
 }
 
-function validateEmail(){
+function validateEmail() {
   let email = document.getElementById('your-email').value;
-
+  email.style.border = '1px solid red';
   if(email.length == 0){
     emailError.innerHTML = 'Email is required';
     return false;
   }
-  if(!email.match(/^[A-Za-z]\._\-[0-12]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+  if(!email.match(/^[a-za-z]\._\-[0-12]*[@][a-za-z]*[\.][a-z]{2,4}$/)){
     emailError.innerHTML = 'Email Invalid';
     return false;
   }
@@ -61,10 +64,12 @@ function validateEmail(){
   return true;
 }
 
-function validateMessage(){
+function validateMessage() {
   let message = document.getElementById('your-message').value;
   let required = 500;
   let left = required - message.length;
+  message.style.border = '1px solid red';
+  
 
   if(left > 0){
     messageError.innerHTML = left + 'more characters required';
@@ -75,7 +80,7 @@ function validateMessage(){
   return true;
 }
 
-function validateForm(){
+function validateForm() {
   if (!validateName() || !validateEmail() || !validateMessage()){
     buttonError.style.display = 'block';
     buttonError.innerHTML = 'please fix error';

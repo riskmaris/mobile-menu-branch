@@ -289,13 +289,13 @@ crossorigin="anonymous"></script>
               </div>
               <div class="form-container">
                 <form class="labels">
-                    <input type="text" name="name" id="name" placeholder="enter name" required id="your-name" onkeyup="validateName">
+                    <input type="text" name="name" id="name" placeholder="enter name" id="your-name" focus="validateName()" required>
                     <span id="name-error"></span>
 
-                   <input type="email" name="email" id="email" placeholder="enter email" required id="your-email" onkeyup="validateEmail">
+                   <input type="email" name="email" id="email" placeholder="enter email" id="your-email" focus="validateEmail()" required>
                    <span id="email-error"></span>
 
-                    <textarea name="message" id="message" placeholder="message" required id="your-message" onkeyup="validateMessage"></textarea></textarea>
+                    <textarea name="message" id="message" placeholder="message" id="your-message" focus="validateMessage()" required></textarea></textarea>
                     <span id="message-error"></span>
 
                   <button onclick="return validateForm()" class="beg-btn">Get in touch</button>
@@ -309,6 +309,6 @@ crossorigin="anonymous"></script>
         </section>
       </main>
     </header>
-    <script src="js app.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
