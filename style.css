@@ -435,6 +435,62 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
+  .pop-up-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 91%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: #3f3f3f 0px 0px 10px;
+    padding: 20px;
+  }
+  .pop-up-div-container{
+    height: 100%;
+  }
+  .pop-up-div-container-img{
+    width: 100%;
+    height: 50%;
+  }
+  .pop-up-div-container-img img{
+    width: 100%;
+    height: 100%;
+  }
+  .pop-up-div-container-details-details{
+    display: flex;
+    align-items: center;
+    width: 30%;
+   
+  }
+
+  .pop-up-div-container-details{
+    display:  flex;
+    flex-direction: row;
+   justify-content: space-between;
+   gap: 30px;
+  }
+  .pop-up-div-container-details p{
+   width: 70%;
+  } 
+  .pop-up-div-container-details .languages{
+    display:  flex;
+    margin-top: 20px;
+  }
+  .btn-details{
+    display: flex ;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+  }
+  .submit-btn{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  
   .body-section {
     width: 100%;
     padding: 0;
@@ -488,7 +544,12 @@ hr {
   .bi-x-lg::before {
     padding-left: 47rem;
   }
-
+  .bi-x-lg{
+    position: absolute;
+    text-align: center;
+    right: 40px;
+    font-size: 20px;
+  }
   /* start second section */
   .bg-img {
     height: 88vh;
@@ -684,21 +745,23 @@ hr {
 }
 
 .pop-up-div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 93%;
-  height: 91%;
-  margin-top: 35px;
-  margin-left: 13px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 90%;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: #3f3f3f 0px 0px 10px;
   padding: 20px;
 }
 
+#close-icon{
+  position:absolute;
+  right: 20px;
+}
 .pop-up-div-container-img img{
-  width: 335px;
   height: 100%;
 }
 
@@ -707,10 +770,28 @@ hr {
   align-items: baseline;
   justify-content: space-between;
   color: #abd4c0;
+  margin-bottom: 20px;
 }
-
-#x-icon {
-
+.beg-btn a{
+  color:  #6070FF;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.pop-up-div-container-details p{
+ width: 100%;
+} 
+.pop-up-div-container-details .languages{
+  display:  flex;
+  margin-top: 20px;
+}
+.btn-details{
+  display: flex ;
+  flex-direction: column;
+  width: 100%;
+}
+.submit-btn{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .pop-up-div-container-details-details element-button {
