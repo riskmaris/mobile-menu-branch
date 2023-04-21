@@ -57,7 +57,7 @@ function validateEmail() {
     return false;
   }
   if(!email.match(/^[a-za-z]\._\-[0-12]*[@][a-za-z]*[\.][a-z]{2,4}$/)){
-    emailError.innerHTML = 'Email Invalid';
+    emailError.innerHTML = 'Email is Invalid, it should be lowercase';
     return false;
   }
   emailError.innerHTML = '<i class="bi bi-hand-thumbs-up"></i>';
