@@ -63,7 +63,7 @@ const cards = [{
 }];
 
 let detailsForPopUpDiv = document.createElement("div");
-let popClose = document.querySelector("#close");
+let popClose = document.querySelector("#x-close");
 
 const popUpDiv = (element) => {
 
