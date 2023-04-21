@@ -147,6 +147,10 @@ h1 {
   color: #172b4d;
 }
 
+.bi-x-lg::before {
+  padding-left: 20rem;
+}
+
 .details {
   display: flex;
   align-items: baseline;
@@ -481,6 +485,10 @@ hr {
     background-color: #ccdbee;
   }
 
+  .bi-x-lg::before {
+    padding-left: 47rem;
+  }
+
   /* start second section */
   .bg-img {
     height: 88vh;
@@ -701,13 +709,8 @@ hr {
   color: #abd4c0;
 }
 
-.pop-up-div .pop-up-div-close {
-  color: #fff;
-  position: absolute;
-  z-index: 280;
-  right: 1.3rem;
-  font-weight: 800;
-  /* padding-right: 20px; */
+#x-icon {
+
 }
 
 /* .pop-up-div-container-details-details element-button {
