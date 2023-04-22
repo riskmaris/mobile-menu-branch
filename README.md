@@ -29,10 +29,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Mobile menu] <a name=Mobile menu></a>
+# 📖 [Popup Branch] <a name=Popup-Branch></a>
 
 
-**[Desktop-Version]** is a simple project built with html,  javascript and css showing responsiveness for desktop version. It shows my accomplishments and skills as a developer.
+**[Popup-Branch]** is a simple project built with html,  javascript and css showing responsiveness for desktop version and mobile version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
@@ -62,6 +62,7 @@
 - Added style.css file
 - Added images from figma
 - Added a Javascript file
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +114,9 @@ To run the project, execute the following command:
 Open index.html using live server extension
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contributions:
+- Please feel free to contribute to this website because we are open for new changes and  skills that can make it even better.
 
 
 ## 👥 Author <a name="author"></a>
