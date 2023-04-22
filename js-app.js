@@ -111,12 +111,11 @@ const popUpDiv = (element) => {
         </div>
   `;
 
-  let section = document.querySelector(`.${element.class}`)
-  section.appendChild(detailsForPopUpDiv)
-
-}
+  const section = document.querySelector(`.${element.class}`);
+  section.appendChild(detailsForPopUpDiv);
+};
 function closePopup() {
-  detailsForPopUpDiv.style.display = 'none'
+  detailsForPopUpDiv.style.display = 'none';
 }
 
 cards.forEach((element) => {

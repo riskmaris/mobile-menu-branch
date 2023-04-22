@@ -553,6 +553,7 @@ hr {
     width: 30%;
     justify-content: center;
   }
+
   .body-section {
     width: 100%;
     padding: 0;
@@ -613,6 +614,7 @@ hr {
     right: 40px;
     font-size: 20px;
   }
+
   /* start second section */
   .bg-img {
     height: 88vh;
@@ -701,6 +703,7 @@ hr {
   .details {
     width: 65%;
     display: flex;
+
     /* justify-content: space-between;
     gap: 10px; */
   }
