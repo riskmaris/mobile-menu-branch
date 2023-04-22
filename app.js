@@ -81,5 +81,6 @@ function validateForm() {
     setTimeout(() => { buttonError.style.display = 'none'; }, 3000);
     return false;
   }
+  return true;
 }
-return validateForm();
+buttonError.addEventListener('submit', validateForm);
