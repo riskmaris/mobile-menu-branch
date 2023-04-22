@@ -111,15 +111,12 @@ const popUpDiv = (element) => {
         </div>
   `;
 
-  const section = document.querySelector(`.${element.class}`);
-  section.appendChild(detailsForPopUpDiv);
-};
+  let section = document.querySelector(`.${element.class}`)
+  section.appendChild(detailsForPopUpDiv)
 
+}
 function closePopup() {
-  detailsForPopUpDiv.style.display = 'none';
-  // document.getElementById('Portfolio').style.filter = 'blur(0px)';
-  //   document.getElementById('About').style.filter = 'blur(0px)';
-  //   document.getElementById('Contact').style.filter = 'blur(0px)';
+  detailsForPopUpDiv.style.display = 'none'
 }
 
 cards.forEach((element) => {
