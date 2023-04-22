@@ -33,10 +33,8 @@ let emailError = document.getElementById('email-error');
 let messageError = document.getElementById('message-error');
 let buttonError = document.getElementById('button-error');
 
-function validateName() {
-  let name = document.getElementById('your-name').value;
-  name.style.border = '1px solid red';
-
+function nameValidation() {
+  const name = document.getElementById('name-input').value;
   if(name.length === 0) {
     nameError.innerHTML = 'name is required';
     return false;
@@ -45,43 +43,39 @@ function validateName() {
     nameError.innerHTML = 'write full name';
     return false;
   }
-  nameError.innerHTML = '<i class="bi bi-hand-thumbs-up"></i>';
+  nameError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 
 function validateEmail() {
   let email = document.getElementById('your-email').value;
-  email.style.border = '1px solid red';
-  if(email.length == 0){
+  if(email.length ===0){
     emailError.innerHTML = 'Email is required';
     return false;
   }
-  if(!email.match(/^[a-za-z]\._\-[0-12]*[@][a-za-z]*[\.][a-z]{2,4}$/)){
+  if(!email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)){
     emailError.innerHTML = 'Email is Invalid, it should be lowercase';
     return false;
   }
-  emailError.innerHTML = '<i class="bi bi-hand-thumbs-up"></i>';
+  emailError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 
 function validateMessage() {
   let message = document.getElementById('your-message').value;
-  let required = 500;
+  let required = 30;
   let left = required - message.length;
-  message.style.border = '1px solid red';
-  
-
   if(left > 0){
-    messageError.innerHTML = left + 'more characters required';
+    messageError.innerHTML = left + ' more characters required';
     return false;
   }
 
-  messageError.innerHTML = '<i class="bi bi-hand-thumbs-up"></i>';
+  messageError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 
 function validateForm() {
-  if (!validateName() || !validateEmail() || !validateMessage()){
+  if (!nameValidation() || !validateEmail() || !validateMessage()){
     buttonError.style.display = 'block';
     buttonError.innerHTML = 'please fix error';
     setTimeout(function(){buttonError.style.display = 'none'}, 3000);

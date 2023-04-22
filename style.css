@@ -19,6 +19,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.bi-check-circle-fill{
+  font-size: 1.5rem;
+}
 
 #x-icon {
   color: #fff;

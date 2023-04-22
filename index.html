@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/3b74535463.js"
 crossorigin="anonymous"></script>
@@ -289,13 +290,13 @@ crossorigin="anonymous"></script>
               </div>
               <div class="form-container">
                 <form class="labels">
-                    <input type="text" name="name" id="name" placeholder="enter name" id="your-name" focus="validateName()" required>
+                    <input type="text"  placeholder="enter name" id="name-input" onkeyup="nameValidation()" required>
                     <span id="name-error"></span>
 
-                   <input type="email" name="email" id="email" placeholder="enter email" id="your-email" focus="validateEmail()" required>
+                   <input type="email" name="email" placeholder="enter email" id="your-email" onkeyup="validateEmail()" required>
                    <span id="email-error"></span>
 
-                    <textarea name="message" id="message" placeholder="message" id="your-message" focus="validateMessage()" required></textarea></textarea>
+                    <textarea name="message" placeholder="message" id="your-message" onkeyup="validateMessage()" required></textarea></textarea>
                     <span id="message-error"></span>
 
                   <button onclick="return validateForm()" class="beg-btn">Get in touch</button>
