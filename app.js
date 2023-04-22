@@ -73,14 +73,3 @@ function validateMessage() {
   messageError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
-
-function validateForm() {
-  if (!nameValidation() || !validateEmail() || !validateMessage()) {
-    buttonError.style.display = 'block';
-    buttonError.innerHTML = 'please fix error';
-    setTimeout(() => { buttonError.style.display = 'none'; }, 3000);
-    return false;
-  }
-  buttonError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
-  return true;
-}
