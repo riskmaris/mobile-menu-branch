@@ -82,4 +82,4 @@ function validateForm() {
     return false;
   }
 }
-validateForm()
+validateForm();
