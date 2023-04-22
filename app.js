@@ -28,18 +28,18 @@ popupListItems.forEach((item) => {
 
 // ---------CONTACT VALIDATION---------
 
-let nameError = document.getElementById('name-error');
-let emailError = document.getElementById('email-error');
-let messageError = document.getElementById('message-error');
-let buttonError = document.getElementById('button-error');
+const nameError = document.getElementById('name-error');
+const emailError = document.getElementById('email-error');
+const messageError = document.getElementById('message-error');
+const buttonError = document.getElementById('button-error');
 
 function nameValidation() {
   const name = document.getElementById('name-input').value;
-  if(name.length === 0) {
+  if (name.length === 0) {
     nameError.innerHTML = 'name is required';
     return false;
   }
-  if(!name.match(/^[a-za-z]*\s{1}[a-za-z]*$/)){
+  if (!name.match(/^[a-za-z]*\s{1}[a-za-z]*$/)) {
     nameError.innerHTML = 'write full name';
     return false;
   }
@@ -48,37 +48,37 @@ function nameValidation() {
 }
 
 function validateEmail() {
-  let email = document.getElementById('your-email').value;
-  if(email.length ===0){
+  const email = document.getElementById('your-email').value;
+  if (email.length === 0) {
     emailError.innerHTML = 'Email is required';
     return false;
   }
-  if(!email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)){
+  if (!email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)) {
     emailError.innerHTML = 'Email is Invalid, it should be lowercase';
     return false;
   }
-  emailError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
+  emailError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 
 function validateMessage() {
-  let message = document.getElementById('your-message').value;
-  let required = 30;
-  let left = required - message.length;
-  if(left > 0){
-    messageError.innerHTML = left + ' more characters required';
+  const message = document.getElementById('your-message').value;
+  const required = 30;
+  const left = required - message.length;
+  if (left > 0) {
+    messageError.innerHTML = `${left} more characters required`;
     return false;
   }
 
-  messageError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
+  messageError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 
 function validateForm() {
-  if (!nameValidation() || !validateEmail() || !validateMessage()){
+  if (!nameValidation() || !validateEmail() || !validateMessage()) {
     buttonError.style.display = 'block';
     buttonError.innerHTML = 'please fix error';
-    setTimeout(function(){buttonError.style.display = 'none'}, 3000);
+    setTimeout(() => { buttonError.style.display = 'none'; }, 3000);
     return false;
   }
 }
