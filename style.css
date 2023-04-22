@@ -20,6 +20,10 @@ body {
   align-items: center;
 }
 
+.bi-check-circle-fill {
+  font-size: 1.5rem;
+}
+
 #x-icon {
   color: #fff;
   position: absolute;
@@ -398,6 +402,19 @@ hr {
   align-items: center;
   align-self: center;
   margin-bottom: 50px;
+}
+
+.labels span {
+  color: red;
+  font-size: 13px;
+}
+
+.labels span i {
+  color: #689f39;
+}
+
+#button-error {
+  color: red;
 }
 
 .labels input {
