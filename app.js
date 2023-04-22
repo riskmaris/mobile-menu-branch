@@ -81,4 +81,6 @@ function validateForm() {
     setTimeout(() => { buttonError.style.display = 'none'; }, 3000);
     return false;
   }
+  buttonError.innerHTML = '<i class="bi bi-check-circle-fill"></i>';
+  return true;
 }
