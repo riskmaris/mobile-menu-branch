@@ -1,9 +1,3 @@
-
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -29,10 +23,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Popup Branch] <a name=Popup-Branch></a>
+# 📖[Form validation] <a name=Form validation></a>
 
 
-**[Popup-Branch]** is a simple project built with html,  javascript and css showing responsiveness for desktop version and mobile version. It shows our accomplishments and skills as developers.
+**[Form validation]** is a simple project built with html,  javascript and css showing responsiveness for desktop version and mobile version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
@@ -126,7 +120,7 @@ Open index.html using live server extension
    
 
 - GitHub: [riskmaris](https://github.com/riskmaris)
- GitHub: [Zohra-Neda](https://github.com/Zohra-Neda)
+ GitHub: [](https://github.com/Zohra-Neda)
 
 
 
