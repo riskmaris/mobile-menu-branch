@@ -85,7 +85,6 @@ function validateForm() {
 }
 buttonError.addEventListener('submit', validateForm);
 
-
 // ----------------local storage-------------------
 
 const formButton = document.getElementById('button-error');
