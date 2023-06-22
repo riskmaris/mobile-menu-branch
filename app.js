@@ -87,32 +87,36 @@ buttonError.addEventListener('submit', validateForm);
 
 // ----------------local storage-------------------
 
-const formButton = document.getElementById('button-error');
-const nameInput = document.getElementById('name-error');
-const emailInput = document.getElementById('email-error');
-const messageInput = document.getElementById('message-error');
+// Check if localStorage is supported by the browser
+if (typeof(Storage) !== "undefined") {
+  // Retrieve the form data from localStorage if it exists
+  let storedData = localStorage.getItem("formData");
+  let formData = storedData ? JSON.parse(storedData) : {};
 
-const formDetails = JSON.parse(localStorage.getItem('contactInfo'));
-if (formDetails) {
-  nameInput.value = formDetails.name;
-  emailInput.value = formDetails.email;
-  messageInput.value = formDetails.message;
-}
+  // Populate the form fields with the stored data
+  document.getElementById("name-input").value = formData.name || "";
+  document.getElementById("your-email").value = formData.email || "";
+  document.getElementById("your-message").value = formData.message || "";
 
-formButton.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const name = nameInput.value;
-  const email = emailInput.value;
-  const message = messageInput.value;
-  // if the value are valid return
-  if (!name || !email || !message) {
-    return;
+  // Save the form data to localStorage whenever a field is changed
+  document.getElementById("name-input").addEventListener("input", saveFormData);
+  document.getElementById("your-email").addEventListener("input", saveFormData);
+  document.getElementById("your-message").addEventListener("input", saveFormData);
+
+  // Save the form data to localStorage before the page is refreshed
+  window.addEventListener("beforeunload", saveFormData);
+
+  // Clear the form data from localStorage when the form is submitted
+  document.querySelector("form").addEventListener("submit", function() {
+    localStorage.removeItem("formData");
+  });
+
+  function saveFormData() {
+    var data = {
+      name: document.getElementById("name-input").value,
+      email: document.getElementById("your-email").value,
+      message: document.getElementById("your-message").value
+    };
+    localStorage.setItem("formData", JSON.stringify(data));
   }
-  // save data to localStorage.
-  const contactInfo = {
-    name,
-    email,
-    message,
-  };
-  localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
-});
+}
