@@ -88,7 +88,10 @@ buttonError.addEventListener('submit', validateForm);
 
 // ----------------local storage-------------------
 
-
+const formButton = document.getElementById('button-error');
+const nameInput = document.getElementById('name-error');
+const emailInput = document.getElementById('email-error');
+const messageInput = document.getElementById('message-error');
 
 const formDetails = JSON.parse(localStorage.getItem('contactInfo'));
 if (formDetails) {
@@ -97,7 +100,7 @@ if (formDetails) {
   messageInput.value = formDetails.message;
 }
 
-formSubmit.addEventListener('submit', (event) => {
+formButton.addEventListener('submit', (event) => {
   event.preventDefault();
   const name = nameInput.value;
   const email = emailInput.value;
