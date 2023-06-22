@@ -84,3 +84,33 @@ function validateForm() {
   return true;
 }
 buttonError.addEventListener('submit', validateForm);
+
+
+// ----------------local storage-------------------
+
+
+
+const formDetails = JSON.parse(localStorage.getItem('contactInfo'));
+if (formDetails) {
+  nameInput.value = formDetails.name;
+  emailInput.value = formDetails.email;
+  messageInput.value = formDetails.message;
+}
+
+formSubmit.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const message = messageInput.value;
+  // if the value are valid return
+  if (!name || !email || !message) {
+    return;
+  }
+  // save data to localStorage.
+  const contactIfo = {
+    name,
+    email,
+    message,
+  };
+  localStorage.setItem('contactInfo', JSON.stringify(contactIfo));
+});
