@@ -89,6 +89,14 @@ buttonError.addEventListener('submit', validateForm);
 
 // Check if localStorage is supported by the browser
 if (typeof (Storage) !== 'undefined') {
+  function saveFormData() {
+    const data = {
+      name: document.getElementById('name-input').value,
+      email: document.getElementById('your-email').value,
+      message: document.getElementById('your-message').value,
+    };
+    localStorage.setItem('formData', JSON.stringify(data));
+  }
   // Retrieve the form data from localStorage if it exists
   const storedData = localStorage.getItem('formData');
   const formData = storedData ? JSON.parse(storedData) : {};
@@ -102,13 +110,4 @@ if (typeof (Storage) !== 'undefined') {
   document.getElementById('name-input').addEventListener('input', saveFormData);
   document.getElementById('your-email').addEventListener('input', saveFormData);
   document.getElementById('your-message').addEventListener('input', saveFormData);
-
-  function saveFormData() {
-    const data = {
-      name: document.getElementById('name-input').value,
-      email: document.getElementById('your-email').value,
-      message: document.getElementById('your-message').value,
-    };
-    localStorage.setItem('formData', JSON.stringify(data));
-  }
 }
