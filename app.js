@@ -92,7 +92,7 @@ if (typeof (Storage) !== 'undefined') {
   // Retrieve the form data from localStorage if it exists
   const storedData = localStorage.getItem('formData');
   const formData = storedData ? JSON.parse(storedData) : {};
-  const nameInput = document.getElementById('name-input');
+  // const nameInput = document.getElementById('name-input');
 
   // Populate the form fields with the stored data
   document.getElementById('name-input').value = formData.name || '';
@@ -100,9 +100,9 @@ if (typeof (Storage) !== 'undefined') {
   document.getElementById('your-message').value = formData.message || '';
 
   // Save the form data to localStorage whenever a field is changed
-  document.getElementById('name-input').addEventListener('input', saveFormData);
-  document.getElementById('your-email').addEventListener('input', saveFormData);
-  document.getElementById('your-message').addEventListener('input', saveFormData);
+  // document.getElementById('name-input').addEventListener('input', saveFormData);
+  // document.getElementById('your-email').addEventListener('input', saveFormData);
+  // document.getElementById('your-message').addEventListener('input', saveFormData);
 
   // Save the form data to localStorage before the page is refreshed
   // window.addEventListener('beforeunload', saveFormData);
