@@ -92,6 +92,7 @@ if (typeof (Storage) !== 'undefined') {
   // Retrieve the form data from localStorage if it exists
   const storedData = localStorage.getItem('formData');
   const formData = storedData ? JSON.parse(storedData) : {};
+  const nameInput = document.getElementById('name-input');
 
   // Populate the form fields with the stored data
   document.getElementById('name-input').value = formData.name || '';
