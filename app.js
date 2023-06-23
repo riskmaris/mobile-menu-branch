@@ -86,17 +86,16 @@ function validateForm() {
 buttonError.addEventListener('submit', validateForm);
 
 // ----------------local storage-------------------
-
+function saveFormData() {
+  const data = {
+    name: document.getElementById('name-input').value,
+    email: document.getElementById('your-email').value,
+    message: document.getElementById('your-message').value,
+  };
+  localStorage.setItem('formData', JSON.stringify(data));
+}
 // Check if localStorage is supported by the browser
 if (typeof (Storage) !== 'undefined') {
-  function saveFormData() {
-    const data = {
-      name: document.getElementById('name-input').value,
-      email: document.getElementById('your-email').value,
-      message: document.getElementById('your-message').value,
-    };
-    localStorage.setItem('formData', JSON.stringify(data));
-  }
   // Retrieve the form data from localStorage if it exists
   const storedData = localStorage.getItem('formData');
   const formData = storedData ? JSON.parse(storedData) : {};
