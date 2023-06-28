@@ -32,7 +32,7 @@
 # 📖 [Popup Branch] <a name=Popup-Branch></a>
 
 
-**[Popup-Branch]** is a simple project built with html,  javascript and css showing responsiveness for desktop version and mobile version. It shows our accomplishments and skills as developers.
+**[Popup-Branch]** is a simple project built with HTML,  javascript and css showing responsiveness for desktop version and mobile version. It shows our accomplishments and skills as developers.
 
 ## 🛠 Built With
 1. Html
